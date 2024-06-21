@@ -26,14 +26,16 @@ type IteungMessage struct {
 }
 
 type Profile struct {
-	Token       string `bson:"token"`
-	Phonenumber string `bson:"phonenumber"`
-	Secret      string `bson:"secret"`
-	URL         string `bson:"url"`
-	URLAPIText  string `bson:"urlapitext"`
-	QRKeyword   string `bson:"qrkeyword"`
-	Botname     string `bson:"botname"`
-	Triggerword string `bson:"triggerword"`
+	Token         string `bson:"token"`
+	Phonenumber   string `bson:"phonenumber"`
+	Secret        string `bson:"secret"`
+	URL           string `bson:"url"`
+	URLAPIText    string `bson:"urlapitext"`
+	QRKeyword     string `bson:"qrkeyword"`
+	Botname       string `bson:"botname"`
+	Triggerword   string `bson:"triggerword"`
+	TelegramToken string `bson:"telegramtoken"`
+	TelegramName  string `bson:"telegramname"`
 }
 
 type WebHook struct {
