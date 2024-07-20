@@ -31,6 +31,8 @@ type Profile struct {
 	Secret        string `bson:"secret"`
 	URL           string `bson:"url"`
 	URLAPIText    string `bson:"urlapitext"`
+	URLAPIImage   string `bson:"urlapiimage"`
+	URLAPIDoc     string `bson:"urlapidoc"`
 	QRKeyword     string `bson:"qrkeyword"`
 	Botname       string `bson:"botname"`
 	Triggerword   string `bson:"triggerword"`
