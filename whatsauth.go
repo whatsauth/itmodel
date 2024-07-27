@@ -64,6 +64,14 @@ type ImageMessage struct {
 	IsGroup     bool   `json:"isgroup,omitempty"`
 }
 
+type DocumentMessage struct {
+	To        string `json:"to"`
+	Base64Doc string `json:"base64doc"`
+	Filename  string `json:"filename"`
+	Caption   string `json:"caption,omitempty"`
+	IsGroup   bool   `json:"isgroup,omitempty"`
+}
+
 type TextMessage struct {
 	To       string `json:"to"`
 	IsGroup  bool   `json:"isgroup,omitempty"`
