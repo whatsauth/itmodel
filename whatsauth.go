@@ -35,6 +35,7 @@ type Profile struct {
 	URLAPIDoc     string `bson:"urlapidoc"`
 	URLQRLogin    string `bson:"urlqrlogin"`
 	QRKeyword     string `bson:"qrkeyword"`
+	PublicKey     string `bson:"publickey"`
 	Botname       string `bson:"botname"`
 	Triggerword   string `bson:"triggerword"`
 	TelegramToken string `bson:"telegramtoken"`
